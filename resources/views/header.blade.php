@@ -1,6 +1,6 @@
 <div style="margin-top: 0%; margin-left: 0%; position: fixed; width: 100%">
     <div class="" style="background-color: #0b8dce; height: 100px">
-        <ul class="nav" style="margin-left: 180px;"> 
+        <ul class="nav" style="margin-left: 100px;"> 
             <li class="nav-item" >
                 <a style="color:white; margin-top: 15px" class="nav-link" href="/home"><img style="height: 40px; width: 90px" src="app_logo.png" alt=""></a>
             </li>
@@ -54,7 +54,7 @@
                     <a style="color:white; margin-top: 15px; margin-left: 30px" href="{{ route('login') }}" class="nav-link"><button type="button" class="btn btn-primary">Sign in</button></a>
                 </li>
                 <li class="nav-item" >
-                    <a style="color:white; margin-top: 15px; margin-left: 0px" href="{{ route('register') }}" class="nav-link"><button type="button" class="btn btn-dark">Sign up</button></a>
+                    <a style="color:white; margin-top: 15px;" href="{{ route('register') }}" class="nav-link"><button type="button" class="btn btn-dark">Sign up</button></a>
                 </li>
             @endauth
             @endif

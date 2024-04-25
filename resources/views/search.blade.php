@@ -19,8 +19,10 @@
         
         </center><br><br><br><br>
 
-        <div style="background-color: yellow; height: 80px">
-            <p>Hello</p>
+        <div style="background-color:  #aac8e5 ; height: 100px">
+            <center>
+                <h1>Liste des formations</h1>
+            </center>
         </div>
         
     </div>

@@ -40,15 +40,25 @@
 
             </li>
 
+            @if (Route::has('login'))
 
-            <li class="nav-item" >
-                <a style="color:white; margin-top: 15px; margin-left: 30px" href="{{ route('login') }}" class="nav-link"><button type="button" class="btn btn-primary">Sign in</button></a>
-            </li>
-            <li class="nav-item" >
-                <a style="color:white; margin-top: 15px; margin-left: 0px" href="{{ route('register') }}" class="nav-link"><button type="button" class="btn btn-dark">Sign up</button></a>
-            </li>
-                
-            
+            @auth
+                <li class="nav-item" style="color:white; margin-top: 20px; margin-left: 30px">
+                    <x-app-layout>
+
+                    </x-app-layout>
+                </li>
+
+            @else
+                <li class="nav-item" >
+                    <a style="color:white; margin-top: 15px; margin-left: 30px" href="{{ route('login') }}" class="nav-link"><button type="button" class="btn btn-primary">Sign in</button></a>
+                </li>
+                <li class="nav-item" >
+                    <a style="color:white; margin-top: 15px; margin-left: 0px" href="{{ route('register') }}" class="nav-link"><button type="button" class="btn btn-dark">Sign up</button></a>
+                </li>
+            @endauth
+            @endif
+
         </ul>
     </div>
 </div>

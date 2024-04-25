@@ -11,7 +11,7 @@
 
         <form action="">
             @csrf
-            <div class="input-group" style="width:35%; height: 20px">
+            <div class="" style="width:35%; height: 20px">
                 <input type="search" style="height: 60px; font-size: 20px" class="form-control rounded" placeholder="Formation" aria-label="Search" aria-describedby="search-addon" />
                 <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>search</button>
             </div>

@@ -1,7 +1,8 @@
-<x-guest-layout>
+<x-guest-layout style="margin-top: 100px">
     <x-authentication-card>
+        
         <x-slot name="logo">
-            <x-authentication-card-logo />
+            <img style="height: 100px; width: 150px" src="app_logo.png" alt="">
         </x-slot>
 
         <x-validation-errors class="mb-4" />
@@ -10,13 +11,24 @@
             @csrf
 
             <div>
+                <x-label for="firstname" value="{{ __('Firstname') }}" />
+                <x-input id="firstname" class="block mt-1 w-full" type="text" name="firstname" :value="old('firstname')" required autofocus autocomplete="firstname" />
+            </div>
+
+            <div>
                 <x-label for="name" value="{{ __('Name') }}" />
                 <x-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
             </div>
 
+            <div>
+                <x-label for="telephone" value="{{ __('Telephone') }}" />
+                <x-input id="telephone" class="block mt-1 w-full" type="tel" name="telephone" :value="old('telephone')" required autofocus autocomplete="telephone" />
+            </div>
+
+
             <div class="mt-4">
                 <x-label for="email" value="{{ __('Email') }}" />
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
+                <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="   " />
             </div>
 
             <div class="mt-4">

@@ -15,7 +15,7 @@
   <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div style="height:100px">
+    <div style="height:70px">
         @include('header')
     </div>
 

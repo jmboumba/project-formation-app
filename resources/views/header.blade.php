@@ -1,5 +1,5 @@
 <div style="margin-top: 0%; margin-left: 0%; position: fixed; width: 100%">
-    <div class="" style="background-color: #0b8dce; height: 100px">
+    <div class="" style="background-color: #1742a4; height: 70px">
         <ul class="nav" style="margin-left: 100px;"> 
             <li class="nav-item" >
                 <a style="color:white; margin-top: 15px" class="nav-link" href="/home"><img style="height: 40px; width: 90px" src="app_logo.png" alt=""></a>

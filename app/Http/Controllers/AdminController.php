@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Categorie;
 
 class AdminController extends Controller
 {
@@ -14,4 +15,5 @@ class AdminController extends Controller
     public function adminFormation(){
         return view('admin.formation');
     }
+
 }
